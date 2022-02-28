@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+
+}
+.container .first .fa-circle{
+    width: 15px;
+    font-weight: 700;
+    font-size: 40px;
+    color:hsla(31, 28%, 43%, 0.589);
+}
+.container .first .fa-car-side{
+    padding-top: 25px;
+    font-size: 30px;
+    color: hsla(51, 69%, 83%, 0.767);
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+.container h2{
+    padding-bottom: 20px;
+    color: hsla(0, 0%, 100%, 0.863);
+    font-weight: 900;
+    font-family: 'Dosis';
+   
+}
+.container p{
+    font-family:  sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.527);
+    line-height: 20px;
+    margin-bottom: 100px;
+}
+.container button{
+    margin:auto;
+}
+.container .first{
+    width: 18%;
+    height:400px;
+    background-color: hsl(31, 77%, 52%);
+    color:  hsl(0, 0%, 95%);
+    padding: 40px;
+    border-radius: 7px 0px 0px 7px;
+   
+}
+
+.container .first .btn1{
+    margin-top: 35px;
+}
+.container .sec{
+    width: 18%;
+    height: 400px;
+    background-color: hsl(184, 100%, 22%);
+    color:  hsl(0, 0%, 95%);
+    padding: 40px;
+}
+.container .sec .btn2{
+    margin-top: 30px;
+}
+.container .sec .fa-circle{
+    width: 15px;
+    font-weight: 700;
+    font-size: 40px;
+    color: hsl(183, 61%, 22%);
+}
+.container .sec .fa-car-side{
+    padding-top: 25px;
+    font-size: 30px;
+    color:hsl(184, 41%, 61%) ;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+.container .third{
+    width: 18%;
+    height: 400px;
+    background-color: hsl(179, 100%, 13%);
+    color:  hsl(0, 0%, 95%);
+    padding: 40px;
+    border-radius: 0px 7px 7px 0px;
+}
+.container .third .btn3{
+    margin-top: 30px;
+}
+.container .third .fa-circle{
+    width: 15px;
+    font-weight: 700;
+    font-size: 40px;
+    color:hsl(180, 64%, 13%);
+}
+.container .third .fa-car-side{
+    padding-top: 25px;
+    font-size: 30px;
+    color:hsl(179, 44%, 32%);
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+.first button{
+    background-color:  hsl(0, 0%, 95%);
+    color:hsl(31, 77%, 52%) ;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 120px;
+    cursor: pointer;
+}
+.first button:hover{
+    background-color:hsl(31, 77%, 52%) ;
+    color:  hsl(0, 0%, 95%);
+    border: 2px solid  hsl(0, 0%, 95%);
+}
+.sec button{
+    background-color:  hsl(0, 0%, 95%);
+    color:hsl(184, 100%, 22%) ;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 120px;
+    cursor: pointer;
+}
+.sec button:hover{
+    background-color:hsl(184, 100%, 22%) ;
+    color:  hsl(0, 0%, 95%);
+    border: 2px solid #ffffff;
+}
+.third button{
+    background-color:  hsl(0, 0%, 95%);
+    color:hsl(179, 100%, 13%) ;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 120px;
+    cursor: pointer;
+}
+.third button:hover{
+    background-color:hsl(179, 100%, 13%) ;
+    color:  hsl(0, 0%, 95%);
+    border: 2px solid  hsl(0, 0%, 95%);
+}
+@media screen and (max-width:900px) {
+    .container .first{
+        width: 70%;
+        border-radius: 7px 7px 0px 0px;
+        font-size: 80%;
+        
+    }
+    .container .sec{
+        width: 70%;
+        font-size: 50%;
+    }
+    .container .third{
+        width: 70%;
+        border-radius: 0px 0px 7px 7px;
+        font-size: 80%;
+    }
+    
+}
+@media screen and (max-width:376px) {
+    .container .first{
+        width: 90%;
+        margin-left: 20px;
+        margin-right: 20px;
+        border-radius: 7px 7px 0px 0px;
+        font-size: 80%;
+    }
+    .container .sec{
+        width: 90%;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 80%;
+    }
+    .container .third{
+        width: 90%;
+        margin-left: 20px;
+        margin-right: 20px;
+        border-radius: 0px 0px 7px 7px;
+        font-size: 80%;
+    }
+    
+}
